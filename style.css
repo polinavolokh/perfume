@@ -1,0 +1,41 @@
+body{
+    font-family: Montserrat;
+    padding: 0;
+    margin: 30;
+}
+
+header{
+    display: flex;
+    background-color: #ECD8D8;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 47px;
+    padding-left: 47px;
+}
+.div1{
+    display: flex;
+    gap: 51px;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    gap: 24px;
+}
+
+.div2{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    border-left: 9px solid #B79696;
+    padding-left: 10px;
+}
+.div3{
+    position: relative;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 120px;
+    line-height: 110px;
+    letter-spacing: 0.25em;
+    width: 100%;
+}
