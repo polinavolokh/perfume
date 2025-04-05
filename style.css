@@ -1,20 +1,26 @@
+*{
+    margin:0;
+}
+a{
+    text-decoration: none;
+}
+
 body{
-    font-family: Montserrat;
     padding: 0;
-    margin: 30;
+    margin: 0;
 }
 
 header{
-    display: flex;
     background-color: #ECD8D8;
-    justify-content: space-between;
+    display: flex;
+    justify-content: center;
     align-items: center;
     padding-right: 47px;
     padding-left: 47px;
 }
 .div1{
     display: flex;
-    gap: 51px;
+    gap: 118;
     align-items: center;
 }
 
@@ -22,12 +28,10 @@ nav{
     display: flex;
     gap: 24px;
 }
-
 .div2{
     display: flex;
     align-items: center;
     gap: 28px;
-    border-left: 9px solid #B79696;
     padding-left: 10px;
 }
 .div3{
@@ -38,4 +42,34 @@ nav{
     line-height: 110px;
     letter-spacing: 0.25em;
     width: 100%;
+}
+
+.image{
+    height: 90vh;
+    background-image: url(img/bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+
+.title{
+    margin-top: 50px;
+}
+
+.text1{
+    margin-top: 100px;
+    width: 40%;
+    align-self: start;
+    margin-left: 30px;
+}
+
+.text2{
+    margin-top: 90px;
+    width:40%;
+    align-self: start;
+    margin-right: 30px;
 }
