@@ -8,6 +8,7 @@ a{
 body{
     padding: 0;
     margin: 0;
+    font-family: Playfair Display;
 }
 
 header{
@@ -19,9 +20,10 @@ header{
     padding-left: 47px;
 }
 .div1{
+    width: 100%;
     display: flex;
-    gap: 118;
     align-items: center;
+    justify-content: space-around;
 }
 
 nav{
@@ -46,7 +48,7 @@ nav{
 
 .image{
     height: 90vh;
-    background-image: url(img/bg.png);
+    background-image: url(img/image\ 2\ \(2\).png);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -58,6 +60,7 @@ nav{
 
 .title{
     margin-top: 50px;
+    text-align: center;
 }
 
 .text1{
@@ -68,8 +71,38 @@ nav{
 }
 
 .text2{
-    margin-top: 90px;
+    margin-top: 110px;
     width:40%;
-    align-self: start;
-    margin-right: 30px;
+    margin-left: 950px;
+}
+
+.item{
+    width: 25%;
+    background-color: #9F9B9B;
+}
+
+.item_img{
+    padding:22px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.item img{
+    width: 100%;
+    height: 390px;
+}
+
+.pr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #8d8080;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
 }
