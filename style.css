@@ -106,3 +106,36 @@ nav{
     gap: 60px;
     flex-wrap: wrap;
 }
+
+.catalog{
+    background-color:#ECD8D8;
+}
+
+footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.foot_text{
+    width: 40%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:30px;
+
+}
+.b{
+    font-weight: 500;
+}
+
+.footer_btns{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer{
+    background-color: #B1A0A0;
+}
