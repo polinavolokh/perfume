@@ -55,6 +55,7 @@ nav{
     flex-direction: column;
     align-items: center;
     justify-content: start;
+    position: relative;
 }
 
 
@@ -71,9 +72,10 @@ nav{
 }
 
 .text2{
-    margin-top: 110px;
     width:40%;
-    margin-left: 150px;
+    position: absolute;
+    right: 0;
+    bottom: 30px;
 }
 
 .item{
@@ -119,14 +121,13 @@ footer{
 }
 
 .foot_text{
-    width: 50%;
+    width: 522px;
     display:flex;
     justify-content: space-around;
     align-items: center;
-    font-size:30px;
+    font-size:20px;
     display: flex;
-    padding-right: 47px;
-    padding-left: 47px;
+    
 }
 .b{
     font-weight: 500;
@@ -141,37 +142,47 @@ footer{
 
 footer{
     background-color: #B1A0A0;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
 }
 
-nav{
-    background: rgba(175, 106, 106, 0.8);
+.link{
+    background: #f0ccde64;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15 px 30px;
+    padding: 15px 30px;
     backdrop-filter: blur(10px);
-    border-bottom: 1 px solid #b89696;
+    border-bottom: 1px solid #b896967a;
 }
 
-nav a{
+.link{
     text-decoration: none;
     color: #333;
-    font-size: 18 px;
+    font-size: 18px;
     margin: 15px;
     font-weight: bold;
     transition: #B499A7 0.3s;
 }
 
-nav a:hover{
-color: #8e44ad;
-}
-
 .card {
-    background: rgba(226, 143, 161, 0.637);
+    background: #f3e2f16f;;
     padding: 20px 30px;
     margin: 20px 0;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     max-width: 600px;
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(10px);
+  }
+
+
+  .f_img{
+    position: relative;
+    left: 150px;
+  }
+
+  .text_footer{
+    background: #D9D9D9;
+    padding: 20px;
   }
