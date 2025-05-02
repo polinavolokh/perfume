@@ -127,6 +127,7 @@ footer{
     align-items: center;
     font-size:20px;
     display: flex;
+    margin-top: 20px;
     
 }
 .b{
@@ -185,4 +186,146 @@ footer{
   .text_footer{
     background: #D9D9D9;
     padding: 20px;
+  }
+
+
+  .form-box {
+    background-color: #9F9B9B;
+    color: white;
+    width: 100px;
+    height: 29px;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    box-shadow: 0 2px 4px rgba(88, 83, 83, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .form-box:hover {
+    background-color: #aaa5a5;
+  }
+
+  body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .form-container {
+    background-color: #ffffff;
+    width: 300px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form input[type="text"],
+  form input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+  }
+  
+  form p {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  label {
+    display: block;
+    margin: 5px 0;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #9F9B9B;
+    color: rgb(7, 7, 7);
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #6d6868;
+  }
+
+  body {
+    background-color: #f8f4f4;
+    font-family: Arial, sans-serif;
+  }
+  
+  .form-box {
+    background-color: #4b4848;
+    width: 350px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(126, 118, 118, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #111010;
+    margin-bottom: 25px;
+  }
+  
+  .section {
+    margin-bottom: 25px;
+  }
+  
+  .section-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  form label {
+    display: block;
+    margin: 6px 0;
+    cursor: pointer;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    margin-top: 5px;
+    border: 1px solid #0c0b0b;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6d6868;
+    color: rgb(102, 97, 97);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #4b4949;
+  }
+  
+  .confirmation {
+    display: none;
+    text-align: center;
+    color: #e91e63;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 30px;
   }
