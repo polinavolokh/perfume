@@ -132,7 +132,7 @@
         </section>
         <footer>
         <div class="footer_btns">
-            <button>Оформити замовлення</button>
+            <button class="zam">Оформити замовлення</button>
             <button>Відгук!💗</button>
     
         </div>
@@ -148,13 +148,11 @@
             </div>
         </div>
         </footer>
-        <div>
-            
-        </div>
+        
 <div class="form-container">
-    <h1>Оформити замовлення</h1>
+    <h1 class="add_title">Оформити замовлення</h1>
     
-    <form>
+    <form class="add_form">
       <input type="text" placeholder="Ім'я" required><br>
       <input type="text" placeholder="Прізвище" required><br>
       <input type="tel" placeholder="Номер телефону" required><br>
@@ -170,22 +168,15 @@
         <input type="radio" name="payment" value="card" required>
         Картка
       </label>
-      <button type="submit">Підтвердити замовлення</button>`
+      <button class="add_btn" type="submit">Підтвердити замовлення</button>`
+      <button class="add_close" type="submit">Закрити вікно</button>`
     </form>
   </div>
-  <head>
-    <title>Купити</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <title>Купити</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+
+
     <div class="form-box">
-      <h1>Купити</h1>
-  
-      <form id="orderForm">
+        <h1 class="buy">Купити</h1>
+      <form class="form_app" id="orderForm">
         <div class="section">
           <p class="section-title">Оберіть парфуми:</p>
           <label><input type="checkbox" name="perfume" value="coco"> Chanel Coco Mademoiselle</label>
@@ -198,32 +189,18 @@
           <label><input type="checkbox" name="perfume" value="rhubarbe"> Les Infusions de Prada Rhubarbe</label>
           <label><input type="checkbox" name="perfume" value="gloss"> Prada Candy Gloss</label>
         </div>
-  
         <div class="section">
           <p class="section-title">Оберіть кількість парфумів:</p>
-          <input type="number" min="1" placeholder="Кількість" required>
+          <input type="number" min="1" placeholder="Кількість">
         </div>
-  
-        <button type="submit">Підтвердити</button>
+        <button class="approve">Підтвердити</button>
+        <button class="new_close">Закрити вікно</button>`
       </form>
-  
       <div class="confirmation" id="confirmationMessage">
         Ваше замовлення оформлено!💘
       </div>
     </div>
   
-    <script>
-      document.getElementById("orderForm").addEventListener("submit", function(event) {
-        event.preventDefault();
-        document.getElementById("confirmationMessage").style.display = "block";
-      });
-    </script>
-</head>
-<body>
-    <script>
-    </script>
-    </header>
-    
     <script src="script.js"></script>
 </body>
 </html>

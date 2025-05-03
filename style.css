@@ -79,6 +79,10 @@ nav{
 }
 
 .item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
     width: 25%;
     background-color: #9F9B9B;
 }
@@ -96,10 +100,16 @@ nav{
 
 .pr{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 50px;
+    width: 100%;
+    height: 20%;
     background-color: #8d8080;
+}
+
+.pr button{
+  color: #fff;
 }
 
 .items{
@@ -183,97 +193,14 @@ footer{
     left: 150px;
   }
 
-  .text_footer{
-    background: #D9D9D9;
-    padding: 20px;
-  }
 
-
-  .form-box {
-    background-color: #9F9B9B;
-    color: white;
-    width: 100px;
-    height: 29px;
-    border: none;
-    border-radius: 5px;
-    font-family: Arial, sans-serif;
-    font-size: 13px;
-    box-shadow: 0 2px 4px rgba(88, 83, 83, 0.2);
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .form-box:hover {
-    background-color: #aaa5a5;
-  }
-
-  body {
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
-  }
-  
-  .form-container {
-    background-color: #ffffff;
-    width: 300px;
-    margin: 50px auto;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  h1 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  form input[type="text"],
-  form input[type="tel"] {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    box-sizing: border-box;
-  }
-  
-  form p {
-    margin-top: 20px;
-    font-weight: bold;
-  }
-  
-  label {
-    display: block;
-    margin: 5px 0;
-  }
-
-  button {
-    width: 100%;
-    padding: 10px;
-    background-color: #9F9B9B;
-    color: rgb(7, 7, 7);
-    border: none;
-    border-radius: 5px;
-    margin-top: 20px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  button:hover {
-    background-color: #6d6868;
-  }
 
   body {
     background-color: #f8f4f4;
     font-family: Arial, sans-serif;
   }
   
-  .form-box {
-    background-color: #4b4848;
-    width: 350px;
-    margin: 50px auto;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 0 15px rgba(126, 118, 118, 0.1);
-  }
+
   
   h1 {
     text-align: center;
@@ -305,11 +232,22 @@ footer{
     border-radius: 5px;
   }
   
-  button {
+  .form-container {
     width: 100%;
     padding: 10px;
-    background-color: #6d6868;
+    background-color: #f9f7f7;
     color: rgb(102, 97, 97);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .form-box {
+    width: 100%;
+    padding: 10px;
+    background-color: #9f9b9b69;
+    color: rgb(33, 29, 29);
     border: none;
     border-radius: 5px;
     font-size: 16px;
@@ -318,7 +256,7 @@ footer{
   }
   
   button:hover {
-    background-color: #4b4949;
+    background-color: #a79e9e;
   }
   
   .confirmation {
@@ -329,3 +267,72 @@ footer{
     font-size: 18px;
     margin-top: 30px;
   }
+
+
+  .form-container{
+    width: 100%;
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #9f9b9b69;
+    position: fixed;
+    backdrop-filter: blur(10px);
+    top: 0;
+    left: 0;
+  }
+
+  .add_form{
+    background-color: #B1A0A0;
+    padding: 50px;
+    border-radius: 30px;
+    color: #0c0b0b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .add_form input{
+    border-radius: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #e91e63;
+  }
+
+  .add_btn{
+
+  }
+.add_close{
+  
+}
+  
+.form-box{
+  width: 100%;
+  height: 100vh;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #9f9b9b69;
+  position: fixed;
+  backdrop-filter: blur(10px);
+  top: 0;
+  left: 0;
+}
+
+.buy{
+  background-color: #B1A0A0;
+  padding: 10px 50px;
+  border-radius: 30px;
+  color: #0c0b0b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.buy_btn{
+
+}
