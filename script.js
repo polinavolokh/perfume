@@ -24,8 +24,15 @@ buy.forEach((btn)=>{
     let close = document.querySelector('.new_close')
     close.addEventListener('click', function(){
       let form = document.querySelector('.form-box')
+      
+
       console.log(form);
       form.style.display = 'none'
+    })
+    let approve = document.querySelector('.approve')
+    approve.addEventListener('click', function(){
+      let text = document.querySelector('.confirmation')
+      text.style.display = 'block'
     })
   })
 })
